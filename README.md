@@ -45,6 +45,22 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Running the app in serverless
+
+```bash
+# create serverless
+$ serverless create --template aws-nodejs --name severless-nestjs
+
+# iniciar en offline
+$ sls offline start
+
+# deploy in serverless
+$ sls deploy -v
+
+# logs app serverless
+$ sls logs --function main --tail
+```
+
 ## Test
 
 ```bash
